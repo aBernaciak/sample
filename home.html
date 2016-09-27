@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Sample Code</title>
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="images/favicon.ico" />
+
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+		<!-- Bootstrap Css -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- extra fonts  -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Arimo:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		
+		<!-- font-awesome for extra icons  -->
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+		<!-- Main Css file -->
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	</head>
+
+	<!-- html w tym landing-pagu jest raczej prosty, także nie uznałem konieczności dodawania w nim komentarzy -->
+
+	<body>	
+
+		<div id="zamow-od-nas" class="background-image-section">
+		    <div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h1>Zamów od nas pyszne jedzonko</h1>
+						<p>a będziesz zdrowy piękny i mądry</p>
+					</div>
+				</div>
+		    </div> 
+		    <div class="zamow-jedzonko-button">
+				<button class="global-button white">
+					<span>Z</span><span>A</span><span>M</span><span>Ó</span><span>W</span>
+					<span></span><span>J</span><span>E</span><span>D</span><span>Z</span><span>O</span><span>N</span><span>K</span><span>O</span>
+				</button>
+		    	<a href="#footer" class="arrow-down"><img src="images/arrow-white.png"/></a>
+		    </div>
+		</div>
+
+		<div id="po-zamowieniu-otrzymasz" class="global-section-margin">
+			<div class="container">
+				<div class="row row-eq-height">
+					<div class="col-lg-6 col-xs-12">
+						<h2 class="global-title">Po zamówieniu Otrzymasz dostęp do systemu w którym:</h2>
+					</div>
+					<div class="col-lg-6 col-xs-12">
+						<ul class="fa-ul">
+					  		<li><i class="fa-li fa fa-check"></i>Zamówisz on line</li>
+						  	<li><i class="fa-li fa fa-check"></i>Zobaczysz co mamy dla Ciebie w Menu</li>
+						  	<li><i class="fa-li fa fa-check"></i>Zmienisz dania na te które najbardziej lubisz</li>
+						  	<li><i class="fa-li fa fa-check"></i>Przełożysz dzień dostawy</li>
+						</ul>
+					</div>
+				</div>
+				<div class="text-center">
+					<button class="global-button golden">
+						<span>Z</span><span>A</span><span>M</span><span>Ó</span><span>W</span>
+						<span></span><span>J</span><span>E</span><span>D</span><span>Z</span><span>O</span><span>N</span><span>K</span><span>O</span>
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="ekrany" class="global-section-margin">
+			<div class="container group">
+				<div class="">
+					<img src="images/ekrany-left.png">
+				</div>
+				<div class="">
+					<img src="images/ekrany-middle.png">
+				</div>
+				<div class="">
+					<img src="images/ekrany-right.png">
+				</div>
+			</div>
+		</div>
+
+		<div id="cennik" class="global-section-margin">
+			<div class="container">
+				<h2 class="global-title">Cennik</h2>
+				<div class="input-container elements-5 group">
+					<p class="cennik-section-title">Wybierz kaloryczność</p>
+					<label for="kalorie1000">
+						<input type="radio" name="kalorie" id="kalorie1000" class="kalorie" value="1000"/>1 000
+					</label>
+						<label for="kalorie1250">
+					<input type="radio" name="kalorie" id ="kalorie1250" class="kalorie" value="1250" />1 250
+					</label>
+					<label for="kalorie1500">
+						<input type="radio" name="kalorie" id ="kalorie1500" class="kalorie" value="1500" />1 500
+					</label>
+					<label for="kalorie2000">
+						<input type="radio" name="kalorie" id ="kalorie2000" class="kalorie" value="2000" />2 000
+					</label>
+					<label for="kalorie2500">
+						<input type="radio" name="kalorie" id ="kalorie2500" class="kalorie" value="2500" />2 500
+					</label>
+				</div>
+
+				<div class="input-container elements-5 group">
+				<p class="cennik-section-title">Wybierz posiłki (min. trzy posiłki)</p>
+					<label for="sniadanie">
+						<input type="checkbox" class="posilki" value="15" id="sniadanie" />Śniadanie
+					</label>
+					<label for="sniadanie2">
+						<input type="checkbox" class="posilki" value="10" id="sniadanie2" />2 Śniadanie
+					</label>
+					<label for="obiad">
+						<input type="checkbox" class="posilki" value="20" id="obiad" />obiad
+					</label>
+					<label for="podwieczorek">
+						<input type="checkbox" class="posilki" value="10" id="podwieczorek" />podwieczorek
+					</label>
+					<label for="kolacja">
+						<input type="checkbox" class="posilki" value="15" id="kolacja" />kolacja
+					</label>
+				</div>
+
+				<div class="input-container group">
+				<p class="cennik-section-title">Wybierz domyślną dietę (będziesz mógł ją potem zmienić):</p>
+					<label for="klasyczna">
+						<input type="radio" name="dieta" class="dieta" id="klasyczna" />Klasyczna
+					</label>
+					<label for="wegetarianska">
+						<input type="radio" name="dieta" class="dieta" id="wegetarianska" />Wegetariańska
+					</label>
+				</div>
+
+				<div class="quantity-container group">
+				<p class="cennik-section-title">Liczba dni</p>
+					<div>
+				    	<input type='button' value='-' class='qtyminus' field='quantity' />
+				    </div>
+				    <div>
+				    	<input type='text' name='quantity' value='30' class='qty' id="days-input" disabled/>
+				    </div>
+				    <div>
+				    	<input type='button' value='+' class='qtyplus' field='quantity' />
+				    </div>
+			    </div>
+				
+				<div id="total">Proszę wybrać przynajmniej 3 dania</div>
+
+				<div class="text-center">
+					<button class="global-button golden">
+						<span>Z</span><span>A</span><span>M</span><span>Ó</span><span>W</span>
+						<span></span><span>J</span><span>E</span><span>D</span><span>Z</span><span>O</span><span>N</span><span>K</span><span>O</span>
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="gdzie-jestesmy" class="global-section-margin">
+			<h2 class="global-title white">Gdzie jesteśmy?</h2>
+			<ul>
+				<li>Wybierz miasto</li>
+				<li class="active"><a href="#">Warszawa</a></li>
+				<li><a href="#">Wrocław</a></li>
+				<li><a href="#">Katowice</a></li>
+				<li><a href="#">Kraków</a></li>
+				<li><a href="#">Poznań</a></li>
+				<li><a href="#">Trójmiasto</a></li>
+			</ul>
+
+			<div class="city-circle">
+				<div></div>
+			</div>
+		</div>
+
+		<div id="zamow-od-nas-dzis" class="background-image-section">
+		    <div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h1>Zamów swoje jedzenie już dzisiaj</h1>
+						<p>lorem ipsum jest tekstem stosowanym</p>
+					</div>
+				</div>
+		    </div> 
+		    <div class="zamow-jedzonko-button">
+				<button class="global-button white">
+					<span>Z</span><span>A</span><span>M</span><span>Ó</span><span>W</span>
+					<span></span><span>J</span><span>E</span><span>D</span><span>Z</span><span>O</span><span>N</span><span>K</span><span>O</span>
+				</button>
+			    <a href="#" class="zaloguj-sie">Masz już konto? Zaloguj się.</a>
+		    </div>
+		</div>
+
+		<div id="sledz-nas" class="text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2 class="global-title white">Śledź nas na portalach</h2>
+						<div class="social-container">
+							<img src="images/follow.png">
+							<img src="images/twitter.png">
+							<img src="images/facebook.png">
+						</div>
+						<p>sample@gmail.com</p>
+						<p>+48 123 456 789</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer id="footer">
+			<div class="container">
+				<ul>
+					<li><a href="">Strona Główna</a></li>
+					<li><a href="">Regulamin</a></li>
+					<li><a href="">FAQ</a></li>
+					<li><a href="">Blog</a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+
+	<!-- Bootstrap Js -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<!-- Main Js file -->
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</html>
